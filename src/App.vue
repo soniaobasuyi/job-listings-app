@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 
   const message = ref('Hello world!');
   const status = ref('active');
@@ -26,6 +26,16 @@ import { ref } from 'vue';
   const deleteTask = (index) => {
     tasks.value.splice(index, 1);
   };
+
+  onMounted(async () => {
+    try {
+      const response = await fetch('http://jsonplaceholder.typicode.com/todos');
+      const data = await response.json();
+      tasks.value = data.slice(9, 20).map((task) => task.title);
+    } catch (error) {
+      console.log(error);
+    }
+  });
 </script>
 
 <template>
