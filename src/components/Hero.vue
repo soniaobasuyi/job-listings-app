@@ -10,7 +10,7 @@ defineProps({
     type: String,
     default: "Find your next Vue Role",
   }
-})
+});
 </script>
 
 <template>
