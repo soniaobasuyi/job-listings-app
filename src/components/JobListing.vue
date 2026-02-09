@@ -49,7 +49,7 @@ const truncatedDescription = computed(() => {
           {{ job.location }}
         </div>
         <RouterLink
-          v-bind:to="`/job/${job.id}`"
+          v-bind:to="`/jobs/${job.id}`"
           class="h-[45px] bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-center text-sm"
         >
           Read More
