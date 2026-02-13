@@ -125,34 +125,6 @@
         "contactPhone": "1-870-701-5288"
       },
       "id": "uqepElg"
-    },
-    {
-      "type": "Internship",
-      "title": "Dr. Kayla Crona",
-      "description": "chirographum vulpes patria",
-      "salary": "$80K - $90K",
-      "location": "damnatio auctor tristis",
-      "company": {
-        "name": "Beahan and Sons",
-        "description": "capio acceptus tempore",
-        "contactEmail": "Willy38@hotmail.com",
-        "contactPhone": "822-258-8233"
-      },
-      "id": "PO6wECo"
-    },
-    {
-      "type": "Remote",
-      "title": "Vicky Wolf",
-      "description": "crepusculum quo amita",
-      "salary": "$70K - $80K",
-      "location": "sub torqueo officiis",
-      "company": {
-        "name": "Ebert, Stokes and DuBuque",
-        "description": "sub torqueo officiis",
-        "contactEmail": "Roscoe_Dare11@yahoo.com",
-        "contactPhone": "1-749-610-9702 x444"
-      },
-      "id": "tYsfvbM"
     }
   ]
 }
