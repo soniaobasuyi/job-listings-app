@@ -1,9 +1,7 @@
 <script setup>
 import { reactive } from 'vue';
-import { useRouter } from 'vue-router';
+import router from '@/router';
 import axios from 'axios';
-
-const router = useRouter();
 
 const form = reactive({
   type: 'Full-Time',
