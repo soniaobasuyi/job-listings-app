@@ -1,10 +1,10 @@
 {
   "jobs": [
     {
-      "type": "Full-Time",
-      "title": "Junior Vue Dev",
+      "type": "Remote",
+      "title": "Junior Vue Developer",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
-      "salary": "$70K - $80K",
+      "salary": "$60K - $70K",
       "location": "Boston, MA",
       "company": {
         "name": "NewTek Solutions",
@@ -85,18 +85,18 @@
       }
     },
     {
-      "type": "Remote",
-      "title": "Cody Keebler ",
-      "description": "absque creator vergo",
-      "salary": "Under $50K",
-      "location": "venia advoco theatrum",
+      "type": "Full-Time",
+      "title": "Clint Johnston IV",
+      "description": "demonstro commodo super",
+      "salary": "Over $200K",
+      "location": "demonstro, cp",
       "company": {
-        "name": "Emard LLC",
-        "description": "dapifer bibo crustulum",
-        "contactEmail": "Jayde_Shanahan48@yahoo.com",
-        "contactPhone": "519.535.4445 x967"
+        "name": "Schumm and Sons",
+        "description": "acceptus vesco spero",
+        "contactEmail": "Antonia4@gmail.com",
+        "contactPhone": "576-378-2625 x8820"
       },
-      "id": "DoflWD_"
+      "id": "f2jo2RJ"
     }
   ]
 }
