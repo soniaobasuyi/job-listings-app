@@ -83,6 +83,48 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "type": "Internship",
+      "title": "Cody Keebler",
+      "description": "absque creator vergo",
+      "salary": "$70K - $80K",
+      "location": "venia advoco theatrum",
+      "company": {
+        "name": "Emard LLC",
+        "description": "dapifer bibo crustulum",
+        "contactEmail": "Jayde_Shanahan48@yahoo.com",
+        "contactPhone": "519.535.4445 x967"
+      },
+      "id": "DoflWD_"
+    },
+    {
+      "type": "Part-Time",
+      "title": "Russell Lockman",
+      "description": "altus spargo natus",
+      "salary": "$150K - $175K",
+      "location": "desino tyrannus coadunatio",
+      "company": {
+        "name": "Welch LLC",
+        "description": "terror vestigium conicio",
+        "contactEmail": "Yasmine.Watsica21@gmail.com",
+        "contactPhone": "1-710-214-0621 x38315"
+      },
+      "id": "Mzv5ncN"
+    },
+    {
+      "type": "Part-Time",
+      "title": "Juanita Green",
+      "description": "venio curiositas bestia",
+      "salary": "$125K - $150K",
+      "location": "cruciamentum vulgivagus pecco",
+      "company": {
+        "name": "Medhurst - Tillman",
+        "description": "censura tamdiu desino",
+        "contactEmail": "Dejuan_Boehm5@hotmail.com",
+        "contactPhone": "1-870-701-5288"
+      },
+      "id": "uqepElg"
     }
   ]
 }

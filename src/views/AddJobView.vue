@@ -1,5 +1,9 @@
 <script setup>
 import { reactive } from 'vue';
+import { useRouter } from 'vue-router';
+import axios from 'axios';
+
+const router = useRouter();
 
 const form = reactive({
   type: 'Full-Time',
@@ -16,7 +20,28 @@ const form = reactive({
 });
 
 const handleSubmit = async () => {
-  console.log(form.title);
+  const newJob = {
+    type: form.type,
+    title: form.title,
+    description: form.description,
+    salary: form.salary,
+    location: form.location,
+    company: {
+      name: form.company.name,
+      description: form.company.description,
+      contactEmail: form.company.contactEmail,
+      contactPhone: form.company.contactPhone,
+    },
+  };
+
+  try {
+    const response = await axios.post('/api/jobs', newJob);
+    // @todo - show toast
+    await router.push(`/jobs/${response.data.id}`);
+  } catch (error) {
+    console.log('error submitting form', error);
+    // @todo - show toast
+  }
 };
 </script>
 
@@ -29,7 +54,13 @@ const handleSubmit = async () => {
 
           <div class="mb-4">
             <label for="type" class="block text-gray-700 font-bold mb-2">Job Type</label>
-            <select v-model="form.type" id="type" name="type" class="border rounded w-full py-2 px-3" required>
+            <select
+              v-model="form.type"
+              id="type"
+              name="type"
+              class="border rounded w-full py-2 px-3"
+              required
+            >
               <option value="Full-Time">Full-Time</option>
               <option value="Part-Time">Part-Time</option>
               <option value="Remote">Remote</option>
@@ -63,7 +94,13 @@ const handleSubmit = async () => {
 
           <div class="mb-4">
             <label for="type" class="block text-gray-700 font-bold mb-2">Salary</label>
-            <select v-model="form.salary" id="salary" name="salary" class="border rounded w-full py-2 px-3" required>
+            <select
+              v-model="form.salary"
+              id="salary"
+              name="salary"
+              class="border rounded w-full py-2 px-3"
+              required
+            >
               <option value="Under $50K">under $50K</option>
               <option value="$50K - $60K">$50 - $60K</option>
               <option value="$60K - $70K">$60 - $70K</option>
